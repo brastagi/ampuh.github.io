@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>Coming Soon 2</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width">
+    <title>Amazing HTML5 Audio Player, powered by http://amazingaudioplayer.com</title>
+    
+    <!-- Insert to your webpage before the </head> -->
+    <script src="audioplayerengine/jquery.js"></script>
+    <script src="audioplayerengine/amazingaudioplayer.js"></script>
+    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
+    <script src="audioplayerengine/initaudioplayer-1.js"></script>
+    <!-- End of head section HTML codes -->
+	<!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -18,22 +25,16 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
-    <!-- Insert to your webpage before the </head> -->
-    <script src="audioplayerengine/jquery.js"></script>
-    <script src="audioplayerengine/amazingaudioplayer.js"></script>
-    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
-    <script src="audioplayerengine/initaudioplayer-1.js"></script>
-    <!-- End of head section HTML codes -->
+    
 </head>
 <body>
-	
-	<!--  -->
+<div style="margin:6px auto;">
+<!--  -->
 	<div class="simpleslide100">
 		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
 		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
 		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
 	</div>
-
 	<div class="size1 overlay1">
 		<!--  -->
 		<div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
@@ -42,15 +43,11 @@
 			</h3>
 
 			<p class="m2-txt1 txt-center p-b-48">
-				HTML5 Audio Streaming Player 
+				HTML5 Audio Streaming Player
 			</p>
 
-
-<div style="margin:6px auto;">
-    
-    <!-- Insert to your webpage where you want to display the audio player -->
-    <div id="amazingaudioplayer-1" style="display:block;position:relative;width:100%;max-width:300px;height:auto;margin:0px auto 0px;">
-        <ul class="amazingaudioplayer-audios" style="display:none;">
+	<div id="amazingaudioplayer-1" style="display:block;position:relative;width:100%;max-width:300px;height:auto;margin:10px auto 0px;">
+	 <ul class="amazingaudioplayer-audios" style="display:none;">
             <li data-artist="" data-title="Power 181 (Top 40)" data-album="" data-info="www.clickblog.net" data-image="audios/dfcdsfds.png" data-live="true">
                 <div class="amazingaudioplayer-source" data-src="http://listen.livestreamingservice.com/181-power_128k.mp3" data-type="audio/mpeg" />
             </li>
@@ -67,53 +64,8 @@
                 <div class="amazingaudioplayer-source" data-src="http://listen.livestreamingservice.com/181-beat_128k.mp3" data-type="audio/mpeg" />
             </li>
         </ul>
-    </div>
-    <!-- End of body section HTML codes -->
-
-</div>
-		</div>
 	</div>
 
-
-
-	
-
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
 
 </body>
 </html>
