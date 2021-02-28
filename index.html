@@ -18,6 +18,13 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+	
+<!-- Insert to your webpage before the </head> -->
+    <script src="audioplayerengine/jquery.js"></script>
+    <script src="audioplayerengine/amazingaudioplayer.js"></script>
+    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
+    <script src="audioplayerengine/initaudioplayer-1.js"></script>
+    <!-- End of head section HTML codes -->	
 </head>
 <body>
 	
@@ -32,47 +39,38 @@
 		<!--  -->
 		<div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
 			<h3 class="l1-txt1 txt-center p-b-25">
-				Coming Soon
+				ClickBlog HTML5
 			</h3>
 
 			<p class="m2-txt1 txt-center p-b-48">
-				Our website is under construction, follow us for update now!
+				HTML5 Audio Streaming Player!
 			</p>
 
-			<div class="flex-w flex-c-m cd100 p-b-33">
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 days">35</span>
-					<span class="s2-txt1">Days</span>
-				</div>
+			<div style="margin:12px auto;">
+    
+    <!-- Insert to your webpage where you want to display the audio player -->
+    <div id="amazingaudioplayer-1" style="display:block;position:relative;width:100%;max-width:300px;height:auto;margin:0px auto 0px;">
+        <ul class="amazingaudioplayer-audios" style="display:none;">
+            <li data-artist="" data-title="Power 181 (Top 40)" data-album="" data-info="www.clickblog.net" data-image="audios/dfcdsfds.png" data-live="true">
+                <div class="amazingaudioplayer-source" data-src="http://listen.livestreamingservice.com/181-power_128k.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="" data-title="The Office" data-album="" data-info="www.clickblog.net" data-image="audios/dfcdsfds.png" data-live="true">
+                <div class="amazingaudioplayer-source" data-src="http://listen.livestreamingservice.com/181-office_128k.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="" data-title="The Mix" data-album="" data-info="www.clickblog.net" data-image="audios/dfcdsfds.png" data-live="true">
+                <div class="amazingaudioplayer-source" data-src="http://listen.livestreamingservice.com/181-themix_128k.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="" data-title="UK top 40" data-album="" data-info="www.clickblog.net" data-image="audios/dfcdsfds.png" data-live="true">
+                <div class="amazingaudioplayer-source" data-src="http://listen.livestreamingservice.com/181-uktop40_128k.mp3" data-type="audio/mpeg" />
+            </li>
+            <li data-artist="" data-title="The Beat (HipHop/R&B" data-album="" data-info="www.clickblog.net" data-image="audios/dfcdsfds.png" data-live="true">
+                <div class="amazingaudioplayer-source" data-src="http://listen.livestreamingservice.com/181-beat_128k.mp3" data-type="audio/mpeg" />
+            </li>
+        </ul>
+    </div>
+    <!-- End of body section HTML codes -->
 
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 hours">17</span>
-					<span class="s2-txt1">Hours</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 minutes">50</span>
-					<span class="s2-txt1">Minutes</span>
-				</div>
-
-				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-					<span class="l2-txt1 p-b-9 seconds">39</span>
-					<span class="s2-txt1">Seconds</span>
-				</div>
-			</div>
-
-			<form class="w-full flex-w flex-c-m validate-form">
-
-				<div class="wrap-input100 validate-input where1" data-validate = "Valid email is required: ex@abc.xyz">
-					<input class="input100 placeholder0 s2-txt2" type="text" name="email" placeholder="Enter Email Address">
-					<span class="focus-input100"></span>
-				</div>
-				
-				
-				<button class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
-					Subscribe
-				</button>
-			</form>
+</div>
 		</div>
 	</div>
 
