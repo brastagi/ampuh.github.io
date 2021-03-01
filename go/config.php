@@ -11,10 +11,10 @@ ob_start("ob_gzhandler"); // Jangan di hapus biar wuss TOD
 
 // setingan situs --------------------
 $host      = $_SERVER['HTTP_HOST']; // url situs TOD tanpa HTTP
-$site      = 'http://html5.clickblog.net/go/'; //url situs
+$site      = 'http://html5.clickblog.net'; //url situs
 $situs     = 'https://'.$_SERVER['HTTP_HOST'].''.$_SERVER['REQUEST_URI'].''; // url canonical
-$sitename  = 'Safelink simple crud php'; // Judul Situs TOD
-$diskripsi   = 'Blog safelink simple PHP'; // Tagline diskripsi situs TOD
+$sitename  = 'ClickBlog Safelink'; // Judul Situs TOD
+$diskripsi   = 'Ultimate Testing'; // Tagline diskripsi situs TOD
 
 
 // jika mengubah nama file ex: login.php, kalian ubah juga variable dibawah ini
