@@ -11,7 +11,7 @@ ob_start("ob_gzhandler"); // Jangan di hapus biar wuss TOD
 
 // setingan situs --------------------
 $host      = $_SERVER['HTTP_HOST']; // url situs TOD tanpa HTTP
-$site      = 'http://html5.clickblog.net'; //url situs
+$site      = 'http://brastagi.github.io'; //url situs
 $situs     = 'https://'.$_SERVER['HTTP_HOST'].''.$_SERVER['REQUEST_URI'].''; // url canonical
 $sitename  = 'ClickBlog Safelink'; // Judul Situs TOD
 $diskripsi   = 'Ultimate Testing'; // Tagline diskripsi situs TOD
