@@ -11,7 +11,7 @@ ob_start("ob_gzhandler"); // Jangan di hapus biar wuss TOD
 
 // setingan situs --------------------
 $host      = $_SERVER['HTTP_HOST']; // url situs TOD tanpa HTTP
-$site      = 'http://localhost'; //url situs
+$site      = 'http://http://html5.clickblog.net/go'; //url situs
 $situs     = 'https://'.$_SERVER['HTTP_HOST'].''.$_SERVER['REQUEST_URI'].''; // url canonical
 $sitename  = 'Safelink simple crud php'; // Judul Situs TOD
 $diskripsi   = 'Blog safelink simple PHP'; // Tagline diskripsi situs TOD
@@ -39,7 +39,7 @@ $htaccess		= '.htaccess'; // file .htaccess TOD
 
 // struktur situs ---------------------
 $mimin     = 'admin'; // Admin Username TOD
-$pmimin    = '123qwerty'; // Password login panel admin TOD
+$pmimin    = 'Alpha1210'; // Password login panel admin TOD
 
 // setingan iklan ---------------------
 $adsense_1 = ''; //iklan adsense 1 720x90 atau auto width 
